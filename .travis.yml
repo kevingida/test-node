@@ -1,0 +1,7 @@
+sudo: requred
+services:
+  - docker
+
+script:
+  - docker build -t kevingida/node .
+  - docker images kevingida/node
